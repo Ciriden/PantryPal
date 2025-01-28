@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software Design Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Software Design Document</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="weekly-reports.html">Weekly Team Reports</a></li>
+        <li><a href="team-members.html">Team Member Information</a></li>
+        <li><a href="project-overview.html">Project Overview</a></li>
+        <li><a href="requirements-interview.html">Requirements Interview</a></li>
+        <li><a href="test-plan.html">Software Test Plan</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Software Design Document</h2>
+    <p>This document outlines the design approach and architecture for the project.</p>
+
+    <h3>System Architecture</h3>
+    <p>The system follows a client-server architecture with the frontend (user interface) hosted as a web application, and the backend (server-side logic) managed via a RESTful API.</p>
+
+    <h3>Design Patterns</h3>
+    <ul>
+      <li>Model-View-Controller (MVC) for clean separation of concerns in the codebase</li>
+      <li>Observer Pattern for handling real-time notifications</li>
+      <li>Singleton Pattern for managing database connections</li>
+    </ul>
+
+    <h3>Database Design</h3>
+    <p>The database will consist of the following main tables:</p>
+    <ul>
+      <li>Users Table (Stores user details and roles)</li>
+      <li>Tasks Table (Stores task details, due dates, and status)</li>
+      <li>Notifications Table (Stores real-time notification logs)</li>
+    </ul>
+
+    <h3>Wireframes</h3>
+    <p>Below is the wireframe for the user dashboard:</p>
+    <!-- Here you can embed images or diagrams if needed -->
+    <img src="wireframe-example.png" alt="Dashboard Wireframe">
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Project Documentation</p>
+  </footer>
+</body>
+</html>
