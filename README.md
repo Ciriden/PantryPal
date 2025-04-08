@@ -20,7 +20,7 @@ Our priorities are the following:
     - More images than text
     - designed for everyday people, not master chefs
 5. Accounts
-    - Save user made recipies to a users account
+    - Save user made recipes to a users account
 6. Stretch Goals
     - Expand on socials
     - Recipes can be shared
