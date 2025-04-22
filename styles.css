@@ -1,59 +1,76 @@
+/* Important Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Quicksand:wght@600&display=swap');
+
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-  }
-  
-  header {
-    background-color: #1b491b;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  h2 {
-    color: #333;
-  }
-  
-  section {
-    margin-bottom: 30px;
-  }
-  
-  footer {
-    background-color: #1b491b;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    width: 100%;
-    bottom: 0;
-  }
-  
-  ul {
-    padding-left: 20px;
-  }
-  
-  ul li {
-    margin-bottom: 5px;
-  }
-  
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #2e2e2e;
+}
+
+header {
+  background-color: #a3b18a;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+main {
+  padding: 24px;
+}
+
+h1, h2, h3 {
+  font-family: 'Quicksand', sans-serif;
+  color: #a3b18a;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+section {
+  margin-bottom: 30px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+footer {
+  background-color: #a3b18a;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 0.9rem;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 6px;
+}
