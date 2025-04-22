@@ -41,7 +41,8 @@ main {
   padding: 24px;
 }
 
-h1, h2, h3 {
+main h1, main h2, main h3,
+section h1, section h2, section h3 {
   font-family: 'Quicksand', sans-serif;
   color: #a3b18a;
   margin-bottom: 12px;
