@@ -35,17 +35,25 @@ nav ul li a {
   text-decoration: none;
   font-family: 'Quicksand', sans-serif;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 main {
   padding: 24px;
 }
 
-main h1, main h2, main h3,
-section h1, section h2, section h3 {
+h1 {
+  color: white;
+}
+
+h1, h2, h3 {
   font-family: 'Quicksand', sans-serif;
-  color: #f9f9f9;
+  margin-bottom: 12px;
+}
+
+h2, h3 {
+  font-family: 'Quicksand', sans-serif;
+  color: #a3b18a;
   margin-bottom: 12px;
 }
 
