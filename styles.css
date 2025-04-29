@@ -84,3 +84,85 @@ ul {
 ul li {
   margin-bottom: 6px;
 }
+
+.reports-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.reports-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: 'Quicksand', sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.reports-table thead tr {
+  background-color: #a3b18a;
+  color: white;
+  text-align: left;
+  font-weight: 600;
+}
+
+.reports-table th,
+.reports-table td {
+  padding: 15px 20px;
+}
+
+.reports-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  background-color: white;
+  transition: all 0.2s;
+}
+
+.reports-table tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+.reports-table tbody tr:last-of-type {
+  border-bottom: 2px solid #a3b18a;
+}
+
+.reports-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #a3b18a;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #7a8c5e;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .reports-table {
+    display: block;
+    overflow-x: auto;
+  }
+  
+  .reports-table th, 
+  .reports-table td {
+    padding: 12px 15px;
+  }
+  
+  .download-btn {
+    padding: 6px 10px;
+    font-size: 0.8em;
+  }
+}
