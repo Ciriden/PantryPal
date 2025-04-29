@@ -5,6 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project Overview</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .priorities {
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+    }
+    .priority-item {
+      margin-bottom: 15px;
+      padding-left: 20px;
+      border-left: 3px solid #a3b18a;
+    }
+    .priority-item h3 {
+      color: #588157;
+      margin-top: 0;
+    }
+    .priority-item ul {
+      margin-top: 10px;
+    }
+    .project-description {
+      background-color: #f1f8e9;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -22,13 +48,80 @@
   </header>
 
   <main>
-    <h2>Project Overview</h2>
-    <p>This section provides an overview of the project goals, timeline, and scope.</p>
-    <p>Our project aims to develop a web application that assists users in managing their daily tasks and schedules.</p>
+    <section class="project-description">
+      <h2>About PantryPal</h2>
+      <p>PantryPal is a user-friendly web application designed to help individuals manage recipes and ingredients efficiently. The platform allows users to create, manage, and delete recipes, organize ingredients, and track pantry inventory dynamically. Additionally, the application includes a shopping cart feature for adding missing ingredients and supports user accounts for personalized recipe management.</p>
+      <p>This project aims to develop an intuitive cooking companion that simplifies meal planning and grocery management for everyday home users.</p>
+    </section>
+
+    <section class="priorities">
+      <h2>Project Priorities</h2>
+      
+      <div class="priority-item">
+        <h3>1. Recipe Management</h3>
+        <ul>
+          <li>Create, manage, and delete recipes with step-by-step instructions</li>
+          <li>Include amount values, measurement units, and ingredient names for each step</li>
+          <li>Options for tracking allergens and suggesting substitutions</li>
+          <li>Servings with scalable ingredient amounts</li>
+          <li>Prep time tracking with built-in cooking timer</li>
+        </ul>
+      </div>
+      
+      <div class="priority-item">
+        <h3>2. Pantry Inventory</h3>
+        <ul>
+          <li>Dynamic inventory of all foods/ingredients</li>
+          <li>Automatic updates when using ingredients in recipes</li>
+          <li>Categorized organization by food types</li>
+        </ul>
+      </div>
+      
+      <div class="priority-item">
+        <h3>3. Shopping Cart</h3>
+        <ul>
+          <li>Auto-generate ingredient lists from recipes</li>
+          <li>Manual addition option for other grocery items</li>
+          <li>Seamless integration with pantry inventory</li>
+        </ul>
+      </div>
+      
+      <div class="priority-item">
+        <h3>4. Minimalist Design</h3>
+        <ul>
+          <li>Visual-first approach with emphasis on images</li>
+          <li>Simple, intuitive interface for everyday users</li>
+          <li>Clean layout with minimal text</li>
+        </ul>
+      </div>
+      
+      <div class="priority-item">
+        <h3>5. User Accounts</h3>
+        <ul>
+          <li>Save and organize personal recipes</li>
+          <li>Track pantry inventory across sessions</li>
+          <li>Personalized cooking experience</li>
+        </ul>
+      </div>
+      
+      <div class="priority-item">
+        <h3>6. Stretch Goals</h3>
+        <ul>
+          <li>Social features for sharing recipes</li>
+          <li>Rating system for community recipes</li>
+          <li>Commenting and feedback options</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Project Scope</h2>
+      <p>Our project aims to develop a comprehensive cooking assistant web application that simplifies meal planning, recipe management, and grocery shopping for home users. The application will focus on intuitive design and practical features that address real-world cooking challenges.</p>
+    </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Project Documentation</p>
+    <p>&copy; 2025 Pantry Pal | WSU</p>
   </footer>
 </body>
 </html>
